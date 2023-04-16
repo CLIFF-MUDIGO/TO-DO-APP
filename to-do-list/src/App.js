@@ -11,16 +11,26 @@ const [input, setInput] = useState("");
   const newTodo = {
     id: Math.random(),
     todo:todo,
-  }
+  };
+
+setList([...list, newTodo]);
+
+setInput("");
  }
-
-
   return (
    <div>
     <h1>TO DO LIST</h1>
     <input type="text" placeholder="Enter" value={input} onChange={(e)=> setInput(e.target.value)}></input>
-    <button>add</button>
-    
+    <button onClick = {() => addTodo(input)}>add</button>
+    <ul>
+      {list.map((todo) => {
+        <li key={todo.id}>
+          {todo.todo}
+          <button>&times;</button>
+
+        </li>
+      })}
+    </ul>
    </div>
   );
 }
