@@ -46,6 +46,6 @@ Acknowledgements
 This app was built as a learning exercise with guidance from online tutorials and documentation.
 Thanks to React for providing a powerful and flexible library for building user interfaces.
 Contact
-If you have any questions or suggestions, feel free to contact me at your-cmudigo@example.com.
+If you have any questions or suggestions, feel free to contact me cmudigo5@example.com.
 
 Feel free to customize and modify this README file to fit your specific to-do list app project. Provide clear instructions on how to set up, run, and use the app, and include any necessary acknowledgements, licensing information, and contact details. Happy coding!
